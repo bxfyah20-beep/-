@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "بادل منيفة | Manifa Padel",
+  "short_name": "بادل منيفة",
+  "description": "نظام حجوزات وإدارة ملاعب بادل منيفة الفوري",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#06131f",
+  "theme_color": "#0073a8",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071b2d" />
+      <stop offset="100%" stop-color="#0073a8" />
+    </linearGradient>
+    <radialGradient id="ballGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#e2ff3b" />
+      <stop offset="70%" stop-color="#c6f208" />
+      <stop offset="100%" stop-color="#9fc200" />
+    </radialGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Outer glowing court accent -->
+  <circle cx="256" cy="256" r="185" fill="none" stroke="#38bdf8" stroke-width="4" stroke-opacity="0.3" stroke-dasharray="16 8"/>
+
+  <!-- Padel Ball -->
+  <circle cx="256" cy="256" r="140" fill="url(#ballGrad)"/>
+  
+  <!-- Tennis/Padel seam curves -->
+  <path d="M 165 145 C 225 210 225 302 165 367" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 347 145 C 287 210 287 302 347 367" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+</svg>

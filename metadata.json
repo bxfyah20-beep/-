@@ -1,0 +1,6 @@
+{
+  "name": "بادل منيفة | Manifa Padel - الحجوزات وقسم الإدارة",
+  "description": "نظام حجوزات وإدارة بادل منيفة (Manifa Camp) بهوية موحدة متطابقة، حماية كاملة للموقع وقسم الإدارة برمز IPN، سجل تدقيق لمن دخل، إدارة العروض والخصومات، وفصل صلاحيات المدير والعامل.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

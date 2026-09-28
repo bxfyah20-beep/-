@@ -1,0 +1,253 @@
+{
+  "clubSettings": {
+    "clubName": "بادل منيفة | Manifa Padel",
+    "phone": "+966 50 123 4567",
+    "location": "الجبيل - مخيم منيفة (Manifa Camp)",
+    "currency": "ر.س",
+    "openingTime": "17:00",
+    "closingTime": "03:00",
+    "racketRentalPrice": 25,
+    "ballCanPrice": 15
+  },
+  "courts": [
+    {
+      "id": "court-1",
+      "name": "ملعب منيفة 1 (بانورامي أزرق)",
+      "type": "panoramic",
+      "surface": "عشب مونيدو أزرق احترافي 12 ملم مع زجاج سيكوريت 12 ملم",
+      "hourlyRate": 140,
+      "peakHourlyRate": 190,
+      "image": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "features": [
+        "زجاج بانورامي كامل",
+        "إضاءة ليد معتمدة للمباريات",
+        "عشب أزرق معتمد FIP"
+      ]
+    },
+    {
+      "id": "court-2",
+      "name": "ملعب منيفة 2 (بانورامي أزرق)",
+      "type": "panoramic",
+      "surface": "عشب مونيدو أزرق احترافي 12 ملم مع زجاج سيكوريت 12 ملم",
+      "hourlyRate": 140,
+      "peakHourlyRate": 190,
+      "image": "https://images.unsplash.com/photo-1626248801379-51a0748a5f96?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "features": [
+        "منطقة جلوس مظللة",
+        "إضاءة ليد احترافية",
+        "شبكة بادل دولية"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "سالم الشمري",
+      "username": "admin",
+      "password": "123",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80",
+      "phone": "+966 50 111 2233",
+      "lastLogin": "اليوم",
+      "passwordUpdatedDate": "2026-03-01",
+      "active": true
+    },
+    {
+      "id": "user-staff",
+      "name": "فهد الدوسري",
+      "username": "staff",
+      "password": "123",
+      "role": "staff",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80",
+      "phone": "+966 55 444 5566",
+      "lastLogin": "أمس",
+      "passwordUpdatedDate": "2026-02-15",
+      "active": true
+    }
+  ],
+  "discounts": [
+    {
+      "id": "disc-1",
+      "title": "خصم افتتاح موسم بادل منيفة",
+      "description": "خصم 15% على جميع حجوزات الملاعب طوال الأسبوع",
+      "code": "MANIFA15",
+      "type": "percentage",
+      "value": 15,
+      "minBookingAmount": 140,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "isActive": true,
+      "isArchived": false,
+      "usageCount": 14,
+      "maxUsageLimit": 100,
+      "applicableCourts": [
+        "all"
+      ],
+      "applicableDays": "جميع الأيام",
+      "applicableHours": "كامل ساعات العمل (17:00 - 03:00)",
+      "highlightBanner": true,
+      "badgeText": "كود نشط 🔥"
+    },
+    {
+      "id": "disc-2",
+      "title": "عرض الصباح والمساء المبكر",
+      "description": "خصم ثابت 30 ر.س للحجوزات المبكرة من 5 مساء حتى 7 مساء",
+      "code": "EARLY30",
+      "type": "fixed",
+      "value": 30,
+      "minBookingAmount": 140,
+      "validFrom": "2026-02-01",
+      "validUntil": "2026-10-31",
+      "isActive": true,
+      "isArchived": false,
+      "usageCount": 8,
+      "maxUsageLimit": 50,
+      "applicableCourts": [
+        "all"
+      ],
+      "applicableDays": "الأحد - الأربعاء",
+      "applicableHours": "17:00 - 19:00",
+      "highlightBanner": false,
+      "badgeText": "فترة الروقان"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bkg-1790424304014",
+      "bookingCode": "PDL-2044",
+      "courtId": "court-2",
+      "courtName": "ملعب منيفة 2 (بانورامي أزرق)",
+      "customerName": "محمد السبيعي",
+      "customerPhone": "0509988776",
+      "date": "2026-09-27",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "durationMinutes": 90,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentMethod": "apple_pay",
+      "courtPrice": 190,
+      "racketRentalsCount": 0,
+      "racketPrice": 0,
+      "ballsCount": 0,
+      "ballsPrice": 0,
+      "discountAmount": 0,
+      "totalPrice": 190,
+      "matchType": "friendly",
+      "createdBy": "سالم الشمري (المدير)",
+      "createdAt": "2026-09-26 12:05"
+    },
+    {
+      "id": "bkg-1790424059275",
+      "bookingCode": "PDL-7156",
+      "courtId": "court-1",
+      "courtName": "ملعب منيفة 1 (بانورامي أزرق)",
+      "customerName": "تجربة عميل جديد",
+      "customerPhone": "0551122334",
+      "date": "2026-09-26",
+      "startTime": "16:30",
+      "endTime": "18:00",
+      "durationMinutes": 90,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentMethod": "mada",
+      "courtPrice": 190,
+      "racketRentalsCount": 0,
+      "racketPrice": 0,
+      "ballsCount": 0,
+      "ballsPrice": 0,
+      "discountAmount": 0,
+      "totalPrice": 190,
+      "matchType": "friendly",
+      "createdBy": "سالم الشمري (المدير)",
+      "createdAt": "2026-09-26 12:00"
+    },
+    {
+      "id": "bkg-1",
+      "bookingCode": "PDL-8821",
+      "courtId": "court-1",
+      "courtName": "ملعب منيفة 1 (بانورامي أزرق)",
+      "customerName": "عبدالرحمن الشهري",
+      "customerPhone": "0501234567",
+      "date": "2026-09-26",
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "durationMinutes": 90,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentMethod": "mada",
+      "courtPrice": 190,
+      "racketRentalsCount": 0,
+      "racketPrice": 0,
+      "ballsCount": 1,
+      "ballsPrice": 15,
+      "appliedDiscountCode": "MANIFA15",
+      "discountAmount": 28,
+      "totalPrice": 177,
+      "matchType": "competitive",
+      "notes": "مباراة دوري داخلي",
+      "createdBy": "سالم الشمري (المدير)",
+      "createdAt": "2026-09-19 14:00"
+    },
+    {
+      "id": "bkg-2",
+      "bookingCode": "PDL-9043",
+      "courtId": "court-2",
+      "courtName": "ملعب منيفة 2 (بانورامي أزرق)",
+      "customerName": "خالد الهاجري",
+      "customerPhone": "0559876543",
+      "date": "2026-09-26",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "durationMinutes": 90,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentMethod": "apple_pay",
+      "courtPrice": 190,
+      "racketRentalsCount": 2,
+      "racketPrice": 50,
+      "ballsCount": 0,
+      "ballsPrice": 0,
+      "discountAmount": 0,
+      "totalPrice": 240,
+      "matchType": "friendly",
+      "notes": "تأجير مضربين مطلوب",
+      "createdBy": "فهد الدوسري (عامل)",
+      "createdAt": "2026-09-19 15:30"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-1790424304014-237",
+      "timestamp": "2026-09-26 12:05:04",
+      "userId": "user-admin",
+      "userName": "سالم الشمري",
+      "userRole": "admin",
+      "action": "booking_created",
+      "target": "PDL-2044",
+      "details": "حجز جديد: محمد السبيعي - ملعب منيفة 2 (بانورامي أزرق) (2026-09-27 19:00-20:30)"
+    },
+    {
+      "id": "audit-1790424059276-398",
+      "timestamp": "2026-09-26 12:00:59",
+      "userId": "user-admin",
+      "userName": "سالم الشمري",
+      "userRole": "admin",
+      "action": "booking_created",
+      "target": "PDL-7156",
+      "details": "حجز جديد: تجربة عميل جديد - ملعب منيفة 1 (بانورامي أزرق) (2026-09-26 16:30-18:00)"
+    },
+    {
+      "id": "audit-1",
+      "timestamp": "2026-09-26 11:33:30",
+      "userId": "user-admin",
+      "userName": "سالم الشمري",
+      "userRole": "admin",
+      "action": "system_initialized",
+      "target": "النظام التشغيلي",
+      "details": "تهيئة نظام إدارة بادل منيفة وتدقيق الملاعب"
+    }
+  ]
+}
